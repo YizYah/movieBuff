@@ -1,6 +1,6 @@
 import {Session} from "neo4j-driver";
 import {filmQuery} from "./filmQuery";
-import {FilmFacts} from "../FilmFacts";
+import {FilmFacts} from "./FilmFacts";
 
 export async function filmInfo(title: string, session: Session):
     Promise<FilmFacts> {
