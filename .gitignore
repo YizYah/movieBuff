@@ -1,0 +1,4 @@
+/* ns__file unit: standard, comp: .gitignore */
+/.nyc_output
+node_modules
+.idea
