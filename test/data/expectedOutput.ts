@@ -1,6 +1,6 @@
-import {MockOutput} from "neo-forgery";
+import {StoredResponse} from "neo-forgery";
 
-export const expectedOutput: MockOutput = {
+export const expectedOutput: StoredResponse = {
     records: [
         {
             "keys": [

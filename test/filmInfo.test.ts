@@ -2,7 +2,6 @@ import test from 'ava'
 
 import {
     mockSessionFromQuerySet,
-    mockResultsFromCapturedOutput,
     QuerySpec
 } from 'neo-forgery'
 import {filmInfo} from '../src/filmInfo'
